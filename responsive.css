@@ -1,0 +1,85 @@
+
+/* Laptop to large device screen Responsiveness goes here */
+@media screen and (min-width:769px) and (max-width:1025px){
+    .nav-container{
+        margin: 0 auto;
+        width: 80%;
+    }
+    .logo-div{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 80%;
+        margin-bottom: 20px;
+        
+    }
+    .nav-items{
+        display: flex;
+        width: 67%%;
+    }
+    .nav-items a{
+        margin-right: 20px;
+        
+    }
+    .follow-container{
+        margin-right: 50px
+    } 
+}
+
+/* Tablet screen Responsiveness goes here */
+
+@media screen and (min-width:426px) and (max-width:768px){
+    .nav-container{
+        margin: 0 auto;
+        flex-direction: column;
+        width: 80%;
+    }
+    .logo-div{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 80%;
+        margin-bottom: 20px;
+        
+    }
+    .nav-items{
+        display: flex;
+        width: 80%;
+    }
+    .nav-items a{
+        margin-right: 20px;
+        
+    }
+    .follow-container{
+        margin-right: -35px;
+    } 
+}
+
+/* Mobile Responsiveness goes here */
+@media screen and (max-width:426px) {
+    .nav-container{
+        flex-direction: column;
+        width: 80%;
+    }
+    .logo-div{  
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 80%;
+    }
+    .nav-items{
+        flex-direction: column;
+        width: 80%;
+    }
+    .nav-items a{
+        margin-top: 20px;
+        
+    }
+    .follow-container{
+        margin-top: 20px;
+    }
+
+
+}
