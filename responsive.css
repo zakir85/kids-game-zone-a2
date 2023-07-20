@@ -1,6 +1,6 @@
 
 /* Laptop to large device screen Responsiveness goes here */
-@media screen and (min-width:769px) and (max-width:1025px){
+@media screen and (min-width:768px) and (max-width:1025px){
     .nav-container{
         margin: 0 auto;
         width: 80%;
@@ -25,11 +25,19 @@
     .follow-container{
         margin-right: 50px
     } 
+
+    /* Online games  section start */
+
+    .kids-online-games-photo-container{
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 /* Tablet screen Responsiveness goes here */
 
-@media screen and (min-width:426px) and (max-width:768px){
+@media screen and (min-width:425px) and (max-width:767px){
     .nav-container{
         margin: 0 auto;
         flex-direction: column;
@@ -141,7 +149,21 @@
         width: 50%;
     
     }
-    
 
+    /* Online games  section start */
+
+    .online-games-section {
+        max-width: 80%;
+        flex-wrap: wrap;
+    }    
+
+    .kids-online-games-photo-container{
+        max-width: 100%;
+        /* margin: 10px 0;
+        padding: 20px 0; */
+        /* display: grid; */
+        grid-template-columns: repeat(1,1fr);
+    }
+    
 
 }

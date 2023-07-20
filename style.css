@@ -209,57 +209,141 @@ nav{
 
 
 
-/* Instagram section start */
-/* 
-.social-media{
-    max-width: 1400px;
-    background: #fff;
+/* Online games  section start */
+
+.online-games-section{
+    max-width: 80%;
+    margin: 0 auto;
+    background: #fff;  
+    border: 1px solid red;
 }
 
-.social-media-title{
-    width: 594px;
+.online-games-title{
+    width: 80%;
     color: #272727;
     text-align: center;
     line-height: 30px;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
-.flowers-photo{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 100px;
-    margin-top: 50px;
-
+.online-games-title h2{
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-
-.single-flower-rose{
-    background-image: url("images/rectanglepic-1.png");
-    background-size: cover;
-    width: 230px;
-    height: 280px;
-    padding: 5px;
+.online-games-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     
-}
-.single-flower-white{
-    background-image: url("images/rectanglepic-2.png");
-    background-size: cover;
-    width: 230px;
-    height: 280px;
-    padding: 5px;
-}
-.single-flower-caketus{
-    background-image: url("images/rectanglepic-3.png");
-    background-size: cover;
-    width: 230px;
-    height: 280px;
-    padding: 5px;
-}
-.single-flower-redrose{
-    background-image: url("images/rectanglepic-4.png");
-    background-size: cover;
-    width: 230px;
-    height: 280px;
-    padding: 5px;
+   }
 
-} */
+   .online-games-title p{
+    font-size: 25px;
+    font-style: normal
+   }
+
+.kids-online-games-photo-container{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+
+.kids-game-photo-vortex{
+    width: 242px;
+    height: 300px;
+    flex-shrink: 0;
+    padding: 5px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+
+}
+.kids-game-photo-vortex img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.kids-game-photo-vortex p{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.kids-game-photo-fort{
+    width: 242px;
+    height: 300px;
+    flex-shrink: 0;
+    padding: 5px;
+    border-radius: 16px;
+}
+
+.kids-game-photo-fort img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.kids-game-photo-fort p{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+.kids-game-photo-toy{
+    width: 242px;
+    height: 300px;
+    flex-shrink: 0;
+    padding: 5px;
+    border-radius: 16px;
+}
+
+.kids-game-photo-toy img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.kids-game-photo-toy p{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+.kids-game-photo-mayhem{
+    width: 242px;
+    height: 300px;
+    flex-shrink: 0;
+    padding: 5px;
+    border-radius: 16px;
+
+}
+.kids-game-photo-mayhem img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.kids-game-photo-mayhem p{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
