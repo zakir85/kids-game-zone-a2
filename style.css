@@ -67,3 +67,199 @@ nav{
     color: #F61C0D;
 }
 /* navbar part ends here */
+
+/*  Header part starts here  */
+.header-container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;   
+   
+}
+.banner-container{
+    width: 50%;
+    background-image: url(/images/group\ 14.png);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.banner-text{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.banner-text h2{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-text .kids-letter{
+    font-size: 4em;
+    text-align: center;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+.icons-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons-container span{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+    
+}
+.icons-container span>.fa-play{
+    color: #F61C0D;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.icons-container span>.fa-download{
+    color: #FF42A5;
+    padding: 5px;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: -30px;
+}
+
+.icons-container span>.fa-users{
+    color: #FF42A5;
+    padding: 5px;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 82px;
+}
+
+.banner-container .banner-btn{
+    display: inline-flex;
+    width: 150px;
+    height: 65px;
+    padding: 12px 24px;
+    border-radius: 48px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    margin: 10px -40px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75px;
+}
+.banner-container .first{
+    background-color: #FF42A5;
+}
+.banner-container .second{
+    background-color: #4EC5F7;
+}
+
+
+.banner-image{
+    width: 50%;
+    background-color:  lightgray 50%;
+    
+    
+}
+.banner-image img{
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+
+    
+}
+/*  Header part ends here  */
+
+
+
+
+/* Instagram section start */
+/* 
+.social-media{
+    max-width: 1400px;
+    background: #fff;
+}
+
+.social-media-title{
+    width: 594px;
+    color: #272727;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.flowers-photo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px;
+    margin-top: 50px;
+
+}
+
+.single-flower-rose{
+    background-image: url("images/rectanglepic-1.png");
+    background-size: cover;
+    width: 230px;
+    height: 280px;
+    padding: 5px;
+    
+}
+.single-flower-white{
+    background-image: url("images/rectanglepic-2.png");
+    background-size: cover;
+    width: 230px;
+    height: 280px;
+    padding: 5px;
+}
+.single-flower-caketus{
+    background-image: url("images/rectanglepic-3.png");
+    background-size: cover;
+    width: 230px;
+    height: 280px;
+    padding: 5px;
+}
+.single-flower-redrose{
+    background-image: url("images/rectanglepic-4.png");
+    background-size: cover;
+    width: 230px;
+    height: 280px;
+    padding: 5px;
+
+} */

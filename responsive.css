@@ -55,7 +55,42 @@
     .follow-container{
         margin-right: -35px;
     } 
+
+    /*  Header part starts here  */
+
+    .header-container{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .banner-container{
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    
+    .banner-image{
+        width: 100%;
+    }
+    .banner-text h2{
+        width: 290px;
+    }
+
+    .icons-container span>.fa-users{
+        margin-left: 0px
+    }
+    
+    
+    .banner-container .banner-btn{
+        width: 34%;
+    
+    }
+    .icons-container{
+        flex-direction: row;
+    }
+
 }
+
+
 
 /* Mobile Responsiveness goes here */
 @media screen and (max-width:426px) {
@@ -80,6 +115,33 @@
     .follow-container{
         margin-top: 20px;
     }
+
+    /*  Header part starts here  */
+
+    .header-container{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .banner-container{
+        width: 100%;
+    }
+
+    .banner-image{
+        width: 100%;
+    }
+    .banner-text h2{
+        width: 186px;
+    }
+
+    .icons-container span>.fa-users{
+        margin-left: 0px
+    }
+    
+    .banner-container .banner-btn{
+        width: 50%;
+    
+    }
+    
 
 
 }
