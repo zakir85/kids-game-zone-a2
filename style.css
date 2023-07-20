@@ -215,7 +215,7 @@ nav{
     max-width: 80%;
     margin: 0 auto;
     background: #fff;  
-    border: 1px solid red;
+    
 }
 
 .online-games-title{
@@ -347,3 +347,91 @@ nav{
 }
 
 
+
+/* ------------------kids-player-section---------------*/
+
+.kids-player-section{
+    max-width: 80%;
+    margin: 0 auto;
+    background: #fff;  
+   
+}
+
+.kids-player-container{
+    max-width: 100%;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-items: center;
+     
+}
+.kids-player-img{
+    width: 100%;
+    position: relative;
+}
+
+.kids-player-img img{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.kids-player2 img{
+    width: 80%;
+}
+.kids-player2{
+    height:100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   top: 80%;
+   left: 75%;
+    
+}
+
+.kids-player-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.kids-player-text h3{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.kids-player-text p{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+/* footer section */
+.footer{
+    width: 80%;
+    height: 50vh;
+    background-color:#0B0223;
+    margin: 0 auto;
+
+        
+    
+}
+.logo-div h3{
+    color:#FFF;
+   
+}
+.logo-div h4{
+    color:#FFF;
+    display: inline-block;
+   
+}

@@ -33,6 +33,15 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+
+    /* ----------- kids-player-section ---------- */
+    .kids-player-container {
+        flex-direction: column-reverse;
+        width: 80%;
+
+    }
+
+
 }
 
 /* Tablet screen Responsiveness goes here */
@@ -165,5 +174,19 @@
         grid-template-columns: repeat(1,1fr);
     }
     
+
+    /* ----------- kids-player-section ---------- */
+    .kids-player-container{
+        flex-direction: column-reverse;
+        width: 70%;
+    }
+    .kids-player2 {
+        top: 70%;
+        left: 60%;
+    }
+    .kids-player-img {
+    margin: 20px 0;
+
+}
 
 }
